@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Suwon Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-optical-sizing: auto;
+            font-weight:200;
+            font-style:normal;  
+        }
+
+        body {
+            background-image: linear-gradient(#badc58, #f45c43);
+            min-height: 100vh;
+            padding: 120px 0;
+        }
+
+        .container {
+            background: #ffffff;
+            width: 400px;
+            height: 500px;
+            border-radius: 5px;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+            margin: 0 auto;
+            padding: 90px 40px;
+            text-align: center;
+
+        }
+
+        .container h1 {
+            font-size: 44px;
+            margin-bottom: 20px
+        }
+
+        .container .form-input {
+            background: rgb(235, 235, 235);
+            outline: none;
+            padding: 15px 10px;
+            margin-bottom: 20px;
+            border: none;
+            width: 100%;
+        }
+
+        .container p {
+            margin-top: 10px 0;
+            font-size: 16px;
+            opacity: 0.5;
+        }
+
+        .container .form-button {
+            margin-top: 15px;
+            background: rgb(255, 64, 47);
+            outline: none;
+            padding: 15px 50px;
+            color: #fff;
+            border: none;
+            border-radius: 30px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>SIGN IN</h1>
+
+        <form>
+            <input class="form-input" type="text" placeholder="Email">
+            <br>
+            <input class="form-input" type="password" placeholder="Password">
+
+            <p>Forgot your password?</p>
+
+            <input class="form-button" type="submit" value="SIGN IN">
+        </form>
+    </div>
+</body>
+
+</html>
